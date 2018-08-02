@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>DefaultCompletionName</key>
+	<string>VIPScene</string>
+	<key>Description</key>
+	<string>Basic Swift VIP module template. Creates View, Interactor, Presenter, Router with protocols.</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___</string>
+	<key>SortOrder</key>
+	<integer>1</integer>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of the scene to create</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Identifier</key>
+			<string>sceneName</string>
+			<key>Name</key>
+			<string>New Scene Name:</string>
+			<key>Required</key>
+			<string>YES</string>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
+	<key>Template Author</key>
+	<string>thetay</string>
+	<key>Concrete</key>
+	<true/>
+</dict>
+</plist>
