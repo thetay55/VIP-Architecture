@@ -7,9 +7,10 @@ Clean Swift (VIP) is Uncle Bob’s Clean Architecture applied to iOS and Mac pro
 In an MVC project, your code is organized around and grouped by models, views, and controllers. In Clean Swift, your project structure is built around scenes. Here is an example how does one scene looks like. In other words, we will have a set of components for each scene that will "work" for our controller. These are the components:
  - Model
  - Router
- - ViewController
+ - Worker
  - Interactor
  - Presenter
+ - ViewController
  - Configurator
  
 ## Communication
