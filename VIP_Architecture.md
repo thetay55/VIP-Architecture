@@ -29,6 +29,9 @@ We will store all the models related to the controller. The Models class will be
 - **Response model**: intercepts the response from the API and stores the appropriate data.
 - **View Model**: everything that you need to show to the UI is stored here. Assuming that signin is complete, there will be a welcome user, which will need a user's name to display, and an error message will appear.
 
+# Reference
+https://hackernoon.com/introducing-clean-swift-architecture-vip-770a639ad7bf
+
 ```swift
 struct LoginModel{
     struct Request {
